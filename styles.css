@@ -109,6 +109,7 @@ hr {
 .hero .hero-heading {
     text-align: center;
     padding-top: 1rem;
+    padding-bottom: 0rem;
     font-size: 2.4rem;
     color: var(--dark-gray);
 }
@@ -151,6 +152,12 @@ hr {
     padding-inline-start: 0px;
 }
 
+.socialIcon {
+    margin: 0rem 0.5rem 0rem 0.5rem;
+    width: 3rem;
+    text-decoration: none;
+}
+
 /* projects page */
 
 .highlight-box {
@@ -158,7 +165,7 @@ hr {
     padding: 1rem;
     padding-bottom: 2rem;
     border-radius: 1rem;
-    margin: 3rem auto;
+    margin: 2rem auto;
     max-width: 650px;
     box-sizing: border-box
 }
