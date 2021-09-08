@@ -98,7 +98,7 @@ hr {
 /* header */
 
 .hero {
-    padding: 2rem;
+    padding: 2rem 0rem;
 }
 
 .hero .hero-img {
@@ -110,6 +110,8 @@ hr {
 
 .me {
     border-radius: 60%;
+    border: solid 3px #3B82F6;
+    padding: 2px;
 }
 
 .hero .hero-heading {
