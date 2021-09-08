@@ -69,7 +69,8 @@ hr {
 /* nav */
 
 .navigation {
-    background-color: var(--primary-color);
+    background: var(--primary-color);
+    background: linear-gradient(150deg, rgba(245, 22, 89, 1) 10%, rgba(59, 130, 246, 1) 50%);
     color: white;
     padding: 1rem;
     border-bottom-left-radius: 1rem;
@@ -90,6 +91,7 @@ hr {
 
 .navigation .link-active {
     font-weight: bold;
+    text-decoration-line: overline
 }
 
 
@@ -158,7 +160,8 @@ hr {
 /* footer */
 
 .footer {
-    background-color: var(--primary-color);
+    background: var(--primary-color);
+    background: linear-gradient(150deg, rgba(59, 130, 246, 1) 50%, rgba(245, 22, 89, 1) 100%);
     padding: 2rem 1rem;
     text-align: center;
     color: white;
