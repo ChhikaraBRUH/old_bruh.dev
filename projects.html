@@ -1,232 +1,359 @@
 <!DOCTYPE html>
 <html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta
+			name="description"
+			content="Chaitanya Chhikara's Projects List. Mostly small projects I did to learn things."
+		/>
+		<meta name="keywords" content="Chaitanya, HTML, CSS, JS, React, WebDev" />
+		<meta name="author" content="Chaitanya Chhikara" />
+		<meta name="robots" content="index, follow" />
+		<!-- Global site tag (gtag.js) - Google Analytics -->
+		<script
+			async
+			src="https://www.googletagmanager.com/gtag/js?id=G-6E9EXJ0V11"
+		></script>
+		<script>
+			window.dataLayer = window.dataLayer || [];
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description"
-        content="Chaitanya Chhikara's Projects List. Mostly small projects I did to learn things." />
-    <meta name="keywords" content="Chaitanya, HTML, CSS, JS, React, WebDev" />
-    <meta name="author" content="Chaitanya Chhikara" />
-    <meta name="robots" content="index, follow" />
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-6E9EXJ0V11"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
+			function gtag() {
+				dataLayer.push(arguments);
+			}
+			gtag("js", new Date());
 
-        function gtag() {
-            dataLayer.push(arguments);
-        }
-        gtag('js', new Date());
+			gtag("config", "G-6E9EXJ0V11");
+		</script>
+		<title>Projects | Chaitanya</title>
+		<link href="/styles.css" rel="stylesheet" />
+	</head>
 
-        gtag('config', 'G-6E9EXJ0V11');
-    </script>
-    <title>Projects | Chaitanya</title>
-    <link href="/styles.css" rel="stylesheet" />
-</head>
+	<body>
+		<nav class="navigation container">
+			<div class="nav-brand">
+				<a class="link" href="/">CHAITANYA CHHIKARA</a>
+			</div>
+			<ul class="list-non-bullet nav-pills">
+				<li class="list-item-inline">
+					<a class="link" href="/">Home</a>
+				</li>
+				<li class="list-item-inline">
+					<a class="link link-active" href="/projects.html">Projects</a>
+				</li>
+				<li class="list-item-inline">
+					<a class="link" href="/blogs.html">Blogs</a>
+				</li>
+			</ul>
+		</nav>
 
-<body>
-    <nav class="navigation container">
-        <div class="nav-brand"><a class="link" href="/">CHAITANYA CHHIKARA</a>
-        </div>
-        <ul class="list-non-bullet nav-pills">
-            <li class="list-item-inline">
-                <a class="link" href="/">Home</a>
-            </li>
-            <li class="list-item-inline">
-                <a class="link link-active" href="/projects.html">Projects</a>
-            </li>
-            <li class="list-item-inline">
-                <a class="link" href="/blogs.html">Blogs</a>
-            </li>
-        </ul>
-    </nav>
+		<header class="hero">
+			<img class="hero-img" src="/images/code.svg" alt="Projects Hero Image" />
+			<h1 class="hero-heading">
+				Check Out <span style="color: var(--primary-color)">My Code</span>
+			</h1>
+		</header>
 
-    <header class="hero">
-        <img class="hero-img" src="/images/code.svg" alt="Projects Hero Image">
-        <h1 class="hero-heading">Check Out <span style="color: var(--primary-color);">My Code</span>
-        </h1>
-    </header>
+		<ul class="list-non-bullet">
+			<li>
+				<article class="container container-center highlight-box ow">
+					<h2>Mark 14: Stocks Profit or Loss Calculator</h2>
+					<small>3 September, 2021</small><span class="techTag">ReactJS</span>
+					<p>
+						A stocks profit and loss calculator app made in ReactJS. It returns
+						profit and loss in absolute as well as %age terms.
+					</p>
+					<a
+						href="https://chaitanya-stocks-calc.netlify.app/"
+						target="_blank"
+						class="link link-primary"
+						>Live Project</a
+					>
+					<a
+						href="https://github.com/ChhikaraBRUH/neoG-mark14-Profit-Loss-Calc"
+						target="_blank"
+						class="link link-secondary"
+						>View Source</a
+					>
+				</article>
+			</li>
+			<li>
+				<article class="container container-center highlight-box">
+					<h2>Mark 13: Palindrome Birthday App</h2>
+					<small>5 September, 2021</small><span class="techTag">ReactJS</span>
+					<p>
+						A simple react app made to check if the entered birthday is a
+						Palindrome or not. It also tells you the next nearest Palindrome
+						Date.
+					</p>
+					<a
+						href="https://chaitanya-birthday-palindrome.netlify.app/"
+						target="_blank"
+						class="link link-primary"
+						>Live Project</a
+					>
+					<a
+						href="https://github.com/ChhikaraBRUH/neoG-mark13-Palindrome-Birthday"
+						target="_blank"
+						class="link link-secondary"
+						>View Source</a
+					>
+				</article>
+			</li>
+			<li>
+				<article class="container container-center highlight-box ow">
+					<h2>Mark 12: Triangles Fun App</h2>
+					<small>6 September, 2021</small><span class="techTag">VanillaJS</span>
+					<p>
+						This is a comprehensive app made with VanillaJS to learn and test
+						all about the triangles. It contains tools like Hypotenuse
+						Calculator, Triangle Validator, Area Calculator & a Quiz on
+						Triangles to test out your knowedge of triangles.
+					</p>
+					<a
+						href="https://chaitanya-triangles.netlify.app/"
+						target="_blank"
+						class="link link-primary"
+						>Live Project</a
+					>
+					<a
+						href="https://github.com/ChhikaraBRUH/neoG-mark12-triangles-fun"
+						target="_blank"
+						class="link link-secondary"
+						>View Source</a
+					>
+				</article>
+			</li>
+			<li>
+				<article class="container container-center highlight-box">
+					<h2>Mark 11: Lucky Birthday App</h2>
+					<small>2 September, 2021</small><span class="techTag">VanillaJS</span>
+					<p>
+						A Lucky Birthday App made with VanillaJS to check if your birth date
+						is lucky or not. The logic is that if your lucky number is
+						completely divisible by the sum of digits of your birth date then
+						you are lucky.
+					</p>
+					<a
+						href="https://lucky-birthday-neog.netlify.app/"
+						target="_blank"
+						class="link link-primary"
+						>Live Project</a
+					>
+					<a
+						href="https://github.com/ChhikaraBRUH/neoG-MarkEleven-Lucky-Birthday"
+						target="_blank"
+						class="link link-secondary"
+						>View Source</a
+					>
+				</article>
+			</li>
+			<li>
+				<article class="container container-center highlight-box ow">
+					<h2>Mark 10: Cash Register Manager</h2>
+					<small>2 September, 2021</small><span class="techTag">ReactJS</span>
+					<p>
+						A Cash Register Manager App made in ReactJS for the cashier to
+						quickly know how much change to give back to the customer based on
+						the bill amount and the cash given by the customer.
+					</p>
+					<a
+						href="https://cash-register-chaitanya.netlify.app/"
+						target="_blank"
+						class="link link-primary"
+						>Live Project</a
+					>
+					<a
+						href="https://github.com/ChhikaraBRUH/neoG-markTen-Cash-Register-Manager"
+						target="_blank"
+						class="link link-secondary"
+						>View Source</a
+					>
+				</article>
+			</li>
+			<li>
+				<article class="container container-center highlight-box">
+					<h2>Mark 9: Good Movies</h2>
+					<small>28 August, 2021</small><span class="techTag">ReactJS</span>
+					<p>
+						Good Movies is my personal favourite movies recommendation app made
+						in ReactJS.
+					</p>
+					<a
+						href="https://chaitanya-movies.vercel.app/"
+						target="_blank"
+						class="link link-primary"
+						>Live Project</a
+					>
+					<a
+						href="https://github.com/ChhikaraBRUH/neoG-MarkNine-good-movies"
+						target="_blank"
+						class="link link-secondary"
+						>View Source</a
+					>
+				</article>
+			</li>
+			<li>
+				<article class="container container-center highlight-box ow">
+					<h2>Mark 8: Emoji Interpreter</h2>
+					<small>27 August, 2021</small><span class="techTag">ReactJS</span>
+					<p>
+						Emoji Interpreter app tell you the meaning of the selected emoji.
+						This is made in ReactJS.
+					</p>
+					<a
+						href="https://emojis-interpreter-react.netlify.app"
+						target="_blank"
+						class="link link-primary"
+						>Live Project</a
+					>
+					<a
+						href="https://github.com/ChhikaraBRUH/neoG-markEight-emoji-interpreter"
+						target="_blank"
+						class="link link-secondary"
+						>View Source</a
+					>
+				</article>
+			</li>
+			<li>
+				<article class="container container-center highlight-box">
+					<h2>Mark 7: Yoda Speaks</h2>
+					<small>26 August, 2021</small><span class="techTag">VanillaJS</span>
+					<p>
+						A translator web app to convert English to the cute Yoda Language.
+						Use this wizard to know what the Baby Yoda is speaking.
+					</p>
+					<a
+						href="https://yoda-translations.netlify.app/"
+						target="_blank"
+						class="link link-primary"
+						>Live Project</a
+					>
+					<a
+						href="https://github.com/ChhikaraBRUH/neoG-markSeven-Yoda-Speak/"
+						target="_blank"
+						class="link link-secondary"
+						>View Source</a
+					>
+				</article>
+			</li>
+			<li>
+				<article class="container container-center highlight-box ow">
+					<h2>Mark 6: Minion Speak</h2>
+					<small>26 August, 2021</small><span class="techTag">VanillaJS</span>
+					<p>
+						A translator web app to convert English to the Minions Language aka
+						The Banana Language. Use this wizard to know what the minions are
+						speaking.
+					</p>
+					<a
+						href="https://minions-translation-app.netlify.app/"
+						target="_blank"
+						class="link link-primary"
+						>Live Project</a
+					>
+					<a
+						href="https://github.com/ChhikaraBRUH/neoG-markSix-Minions-Speak"
+						target="_blank"
+						class="link link-secondary"
+						>View Source</a
+					>
+				</article>
+			</li>
+			<li>
+				<article class="container container-center highlight-box">
+					<h2>Mark 2: Bitcoin Quiz!</h2>
+					<small>18 August, 2021</small><span class="techTag">NodeJS</span>
+					<p>
+						A CLI app built with nodeJS. You can try and take this to prove your
+						knowledge in the field of bitcoin and blockchain. Also do send this
+						to your friends as well.
+					</p>
+					<a
+						href="https://replit.com/@ChhikaraBRUH/neoG-markTwo-ex-BitcoinQuiz?embed=1&output=1"
+						target="_blank"
+						class="link link-primary"
+						>Live Project</a
+					>
+					<a
+						href="https://github.com/ChhikaraBRUH/neoG-markTwo-ex-BitcoinQuiz"
+						target="_blank"
+						class="link link-secondary"
+						>View Source</a
+					>
+				</article>
+			</li>
+			<li>
+				<article class="container container-center highlight-box ow">
+					<h2>Mark 1: How Well Do You Know Me Quiz?</h2>
+					<small>18 August, 2021</small><span class="techTag">NodeJS</span>
+					<p>
+						A CLI app built with nodeJS. You can send this to my friends and
+						find out who really knows me.
+					</p>
+					<a
+						href="https://replit.com/@ChhikaraBRUH/neoG-markOne-ex-DoYouKnowMe?embed=1&output=1"
+						target="_blank"
+						class="link link-primary"
+						>Live Project</a
+					>
+					<a
+						href="https://github.com/ChhikaraBRUH/neoG-markOne-ex-DoYouKnowMe"
+						target="_blank"
+						class="link link-secondary"
+						>View Source</a
+					>
+				</article>
+			</li>
+		</ul>
+		<button onclick="topFunction()" id="top-btn" title="Go to top">👆</button>
 
-    <ul class="list-non-bullet">
-        <li>
-            <article class="container container-center highlight-box ow">
-                <h2>Mark 14: Stocks Profit or Loss Calculator</h2>
-                <small>3 September, 2021</small><span class="techTag">ReactJS</span>
-                <p>A stocks profit and loss calculator app made in ReactJS. It returns profit and loss in absolute as
-                    well as %age terms.
-                </p>
-                <a href="https://chaitanya-stocks-calc.netlify.app/" target="_blank" class="link link-primary">Live
-                    Project</a>
-                <a href="https://github.com/ChhikaraBRUH/neoG-mark14-Profit-Loss-Calc" target="_blank"
-                    class="link link-secondary">View
-                    Source</a>
-            </article>
-        </li>
-        <li>
-            <article class="container container-center highlight-box">
-                <h2>Mark 13: Palindrome Birthday App</h2>
-                <small>5 September, 2021</small><span class="techTag">ReactJS</span>
-                <p>A simple react app made to check if the entered birthday is a Palindrome or not. It also tells you
-                    the next nearest Palindrome Date.
-                </p>
-                <a href="https://chaitanya-birthday-palindrome.netlify.app/" target="_blank"
-                    class="link link-primary">Live Project</a>
-                <a href="https://github.com/ChhikaraBRUH/neoG-mark13-Palindrome-Birthday" target="_blank"
-                    class="link link-secondary">View
-                    Source</a>
-            </article>
-        </li>
-        <li>
-            <article class="container container-center highlight-box ow">
-                <h2>Mark 12: Triangles Fun App</h2>
-                <small>6 September, 2021</small><span class="techTag">VanillaJS</span>
-                <p>This is a comprehensive app made with VanillaJS to learn and test all about the triangles. It
-                    contains
-                    tools like Hypotenuse Calculator, Triangle Validator, Area Calculator & a Quiz on Triangles to test
-                    out your knowedge of triangles.
-                </p>
-                <a href="https://chaitanya-triangles.netlify.app/" target="_blank" class="link link-primary">Live
-                    Project</a>
-                <a href="https://github.com/ChhikaraBRUH/neoG-mark12-triangles-fun" target="_blank"
-                    class="link link-secondary">View
-                    Source</a>
-            </article>
-        </li>
-        <li>
-            <article class="container container-center highlight-box">
-                <h2>Mark 11: Lucky Birthday App</h2>
-                <small>2 September, 2021</small><span class="techTag">VanillaJS</span>
-                <p>A Lucky Birthday App made with VanillaJS to check if your birth date is lucky or not. The logic is
-                    that if your lucky number is completely divisible by the sum of digits of your birth date then you
-                    are lucky.
-                </p>
-                <a href="https://lucky-birthday-neog.netlify.app/" target="_blank" class="link link-primary">Live
-                    Project</a>
-                <a href="https://github.com/ChhikaraBRUH/neoG-MarkEleven-Lucky-Birthday" target="_blank"
-                    class="link link-secondary">View
-                    Source</a>
-            </article>
-        </li>
-        <li>
-            <article class="container container-center highlight-box ow">
-                <h2>Mark 10: Cash Register Manager</h2>
-                <small>2 September, 2021</small><span class="techTag">ReactJS</span>
-                <p>A Cash Register Manager App made in ReactJS for the cashier to quickly know how much change to give
-                    back to the customer based on the bill amount and the cash given by the customer.
-                </p>
-                <a href="https://cash-register-chaitanya.netlify.app/" target="_blank" class="link link-primary">Live
-                    Project</a>
-                <a href="https://github.com/ChhikaraBRUH/neoG-markTen-Cash-Register-Manager" target="_blank"
-                    class="link link-secondary">View
-                    Source</a>
-            </article>
-        </li>
-        <li>
-            <article class="container container-center highlight-box">
-                <h2>Mark 9: Good Movies</h2>
-                <small>28 August, 2021</small><span class="techTag">ReactJS</span>
-                <p>Good Movies is my personal favourite movies recommendation app made in ReactJS.
-                </p>
-                <a href="https://chaitanya-movies.vercel.app/" target="_blank" class="link link-primary">Live
-                    Project</a>
-                <a href="https://github.com/ChhikaraBRUH/neoG-MarkNine-good-movies" target="_blank"
-                    class="link link-secondary">View
-                    Source</a>
-            </article>
-        </li>
-        <li>
-            <article class="container container-center highlight-box ow">
-                <h2>Mark 8: Emoji Interpreter</h2>
-                <small>27 August, 2021</small><span class="techTag">ReactJS</span>
-                <p>Emoji Interpreter app tell you the meaning of the selected emoji. This is made in ReactJS.
-                </p>
-                <a href="https://emojis-interpreter-react.netlify.app" target="_blank" class="link link-primary">Live
-                    Project</a>
-                <a href="https://github.com/ChhikaraBRUH/neoG-markEight-emoji-interpreter" target="_blank"
-                    class="link link-secondary">View
-                    Source</a>
-            </article>
-        </li>
-        <li>
-            <article class="container container-center highlight-box">
-                <h2>Mark 7: Yoda Speaks</h2>
-                <small>26 August, 2021</small><span class="techTag">VanillaJS</span>
-                <p>A translator web app to convert English to the cute Yoda Language. Use this wizard to know what the
-                    Baby Yoda is speaking.
-                </p>
-                <a href="https://yoda-translations.netlify.app/" target="_blank" class="link link-primary">Live
-                    Project</a>
-                <a href="https://github.com/ChhikaraBRUH/neoG-markSeven-Yoda-Speak/" target="_blank"
-                    class="link link-secondary">View
-                    Source</a>
-            </article>
-        </li>
-        <li>
-            <article class="container container-center highlight-box ow">
-                <h2>Mark 6: Minion Speak</h2>
-                <small>26 August, 2021</small><span class="techTag">VanillaJS</span>
-                <p>A translator web app to convert English to the Minions Language aka The Banana Language. Use this
-                    wizard to know what the minions are speaking.
-                </p>
-                <a href="https://minions-translation-app.netlify.app/" target="_blank" class="link link-primary">Live
-                    Project</a>
-                <a href="https://github.com/ChhikaraBRUH/neoG-markSix-Minions-Speak" target="_blank"
-                    class="link link-secondary">View
-                    Source</a>
-            </article>
-        </li>
-        <li>
-            <article class="container container-center highlight-box">
-                <h2>Mark 2: Bitcoin Quiz!</h2>
-                <small>18 August, 2021</small><span class="techTag">NodeJS</span>
-                <p>A CLI app built with nodeJS. You can try and take this to prove your knowledge in the field of
-                    bitcoin and blockchain. Also do send this to your friends as well.
-                </p>
-                <a href="https://replit.com/@ChhikaraBRUH/neoG-markTwo-ex-BitcoinQuiz?embed=1&output=1" target="_blank"
-                    class="link link-primary">Live Project</a>
-                <a href="https://github.com/ChhikaraBRUH/neoG-markTwo-ex-BitcoinQuiz" target="_blank"
-                    class="link link-secondary">View
-                    Source</a>
-            </article>
-        </li>
-        <li>
-            <article class="container container-center highlight-box ow">
-                <h2>Mark 1: How Well Do You Know Me Quiz?</h2>
-                <small>18 August, 2021</small><span class="techTag">NodeJS</span>
-                <p>A CLI app built with nodeJS. You can send this to my friends and find out who really knows me.
-                </p>
-                <a href="https://replit.com/@ChhikaraBRUH/neoG-markOne-ex-DoYouKnowMe?embed=1&output=1" target="_blank"
-                    class="link link-primary">Live Project</a>
-                <a href="https://github.com/ChhikaraBRUH/neoG-markOne-ex-DoYouKnowMe" target="_blank"
-                    class="link link-secondary">View
-                    Source</a>
-            </article>
-        </li>
-    </ul>
-
-
-
-    <footer class="footer">
-        <div class="footer-header">Connect With Me On My Socials</div>
-        <ul class="social-links list-non-bullet">
-            <li class="list-item-inline"><a class="socialIcon" href="https://twitter.com/ChhikaraBRUH" target="_blank">
-                    <img class="socialIcon" alt="Twitter Icon" src="/images/twitter-footer.png" />
-                </a></li>
-            <li class="list-item-inline"><a class="socialIcon" href="https://github.com/ChhikaraBRUH" target="_blank">
-                    <img class="socialIcon" alt="GitHub Icon" src="/images/github-footer.png" />
-                </a></li>
-            <li class="list-item-inline"><a class="socialIcon" href="https://linkedin.com/in/ChaitanyaChhikara"
-                    target="_blank">
-                    <img class="socialIcon" alt="LinkedIn Icon" src="/images/linkedin-footer.png" />
-                </a></li>
-        </ul>
-        <div>Made with ❤️ by Chaitaya</div>
-    </footer>
-
-
-
-</body>
-
+		<footer class="footer">
+			<div class="footer-header">Connect With Me On My Socials</div>
+			<ul class="social-links list-non-bullet">
+				<li class="list-item-inline">
+					<a
+						class="socialIcon"
+						href="https://twitter.com/ChhikaraBRUH"
+						target="_blank"
+					>
+						<img
+							class="socialIcon"
+							alt="Twitter Icon"
+							src="/images/twitter-footer.png"
+						/>
+					</a>
+				</li>
+				<li class="list-item-inline">
+					<a
+						class="socialIcon"
+						href="https://github.com/ChhikaraBRUH"
+						target="_blank"
+					>
+						<img
+							class="socialIcon"
+							alt="GitHub Icon"
+							src="/images/github-footer.png"
+						/>
+					</a>
+				</li>
+				<li class="list-item-inline">
+					<a
+						class="socialIcon"
+						href="https://linkedin.com/in/ChaitanyaChhikara"
+						target="_blank"
+					>
+						<img
+							class="socialIcon"
+							alt="LinkedIn Icon"
+							src="/images/linkedin-footer.png"
+						/>
+					</a>
+				</li>
+			</ul>
+			<div>Made with ❤️ by Chaitaya</div>
+		</footer>
+	</body>
+	<script src="/app.js"></script>
 </html>
